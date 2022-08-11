@@ -1,0 +1,50 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;800;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  color:white;
+  background:black url(../img/texture_bg.jpg) no-repeat 50% 0px;
+  margin:3% 10% 0 10%;
+  overflow:hidden;
+}
+  
+#quote {
+  font-size:60px;
+  line-height:1.2;
+  letter-spacing: 5px;
+  color:black;  
+}
+
+h1 {
+  color: black;
+  text-shadow:
+    -1px -1px 0 white,  
+    1px -1px 0 white,
+    -1px 1px 0 white,
+    1px 1px 0 white
+}
+
+span {
+  color: black;
+  text-shadow:
+  -1px -1px 0 orange,  
+  1px -1px 0 orange,
+  -1px 1px 0 orange,
+  1px 1px 0 orange
+}
+  
+button {
+  padding:20px;
+  margin: 30px 0;
+  border: 1px solid white;
+  background: none;
+  color: white;
+  cursor: pointer;  
+}
