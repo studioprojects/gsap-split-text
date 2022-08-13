@@ -1,8 +1,5 @@
 
-/*
-See https://www.greensock.com/splittext/ for details. 
-This demo uses SplitText which is a membership benefit of Club GreenSock, https://www.greensock.com/club/
-*/
+
 gsap.registerPlugin(SplitText);
 
 var tl = gsap.timeline(),
